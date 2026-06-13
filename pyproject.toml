@@ -1,8 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "replace-imports"
 version = "0.1.0"
-description = "Automated import replacement tool"
-authors = [{ name="Ganril" }]
+description = "Import replacement tool"
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml"
+]
 
 [project.scripts]
 replace-imports = "replace_imports.cli:main"

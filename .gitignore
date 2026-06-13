@@ -1,0 +1,10 @@
+.venv/
+**pycache**/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.edited/
+*backup_replace**/
+

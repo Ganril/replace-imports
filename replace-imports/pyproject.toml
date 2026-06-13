@@ -1,8 +1,0 @@
-[project]
-name = "replace-imports"
-version = "0.1.0"
-description = "Automated import replacement tool"
-authors = [{ name="Ganril" }]
-
-[project.scripts]
-replace-imports = "replace_imports.cli:main"

@@ -1,0 +1,12 @@
+root: .
+
+dry_run: true
+
+ignore:
+  - venv
+  - .git
+  - __pycache__
+
+rules:
+  - from: "from secrets import"
+    to: "from secret_manager import"
